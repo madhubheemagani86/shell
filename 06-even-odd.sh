@@ -1,11 +1,7 @@
-!#bin/bash
+#!bin/bash 
 
-if [ $(( $1 % 2 )) -eq 0 ]; then
-    echo "$1 is even"
+if [ $1 % 2 -eq 0 ]; then
+    echo "$1 is an even number"
 else
- if [ $(( $1 % 2 )) -eq 1 ]; then
-    echo "$1 is a prime number"
-    else
-    echo "$1 is not a prime number but odd"
-    fi
+    echo "$1 is an odd number"
 fi
