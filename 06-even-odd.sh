@@ -7,4 +7,5 @@ else
     echo "$1 is a prime number"
     else
     echo "$1 is not a prime number but odd"
+    fi
 fi
