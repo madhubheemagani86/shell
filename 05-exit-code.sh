@@ -8,7 +8,7 @@ else
 fi
 
 ls /fakedir
-if[$? -eq 0]; then
+if[$? -ne 0]; then
     echo "SUCCESS"
 else
     echo "FAILURE"
