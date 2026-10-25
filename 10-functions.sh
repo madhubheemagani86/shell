@@ -6,9 +6,9 @@ print_header() {
     echo "------------------------------"
 }   
 print_header "Package Installation Status"
-dnf install -y git wget curl > /dev/null 2>&1
+dnf install -y $1 > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    echo "SUCCESS: git, wget, and curl installed successfully."
+    echo "SUCCESS: $1 installed successfully."
 else
-    echo "FAILURE: Failed to install git, wget, and/or curl."
+    echo "FAILURE: Failed to install $1."
 fi  
