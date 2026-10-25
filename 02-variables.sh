@@ -15,3 +15,4 @@ echo "I have $years_left years left until I turn 60."
 #Change the name variable to a different name and verify only one line needs to change
 name="Jane"
 echo "My name is now $name."
+echo "Years until 60: $years_left"
