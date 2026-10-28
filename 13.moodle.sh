@@ -3,7 +3,7 @@
 ami_id="ami-0055977a6e828a4f4"
 instance_type="t3.micro"
 domain_name="lmsconsultant.shop"
-hosted_zone_id="Z01595761DU8O4AX48D6A"
+hosted_zone_id="Z02446633PE609T8XV8U4"
 
 for instance in $@
 do
